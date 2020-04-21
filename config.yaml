@@ -1,0 +1,42 @@
+start_dir: data/02. Data collection
+dest_dir: data/pickle
+clean_pickles_dir: data/pickle/clean pickles
+clean_pickles_for_graphs_dir: data/pickle/clean pickles for graphs
+usage_prefix: usage
+interaction_prefix: interaction
+hierarchy_prefix: hierarchy
+account_assignment_prefix: Account_Assignment
+contracts_journals_prefix: DataCR*journals
+contracts_other_prefix: DataCR*other
+usage_headers_file: data/02. Data collection/01. Customer Data/05. Product Usage/AA_USAGE_202001/headers.txt
+science_direct_header_file: data/02. Data collection/01. Customer Data/05. Product Usage/header.txt
+interaction_headers_file: data/02. Data collection/01. Customer Data/07. Customer Satisfaction data/interactions/headers.txt
+summary_file: data/summary/summary.txt
+plots_dir: data/summary/Data Analysis Graphs
+data_dictionary_file: Data Dictionary.xlsx
+
+churn_activities_file: 191212_churn_activities
+churn_risks_file: 191224_churn_risks_V02
+churn_products_file: 200117_churn_products
+sis_mapping_file: 200117_sis_mapping
+account_assignment_file: Account_Assignment
+cancellations_file: DataCR_from_2015_Cancellations_Source_Systems
+journal_contracts_file: DataCRjournals
+other_contracts_file: DataCRother
+ech_file: ECH Customer Data
+interactions_file: interaction
+nps_file: NPS_Cleansed_Data
+product_assignment_file: Product_Assignment_2019
+usage_file: usage
+science_direct_usage_file: sd_fact_cntr-2019-01-0000_part_00
+hierarchy_file: hierarchy
+ignore_file_pattern: ['*.old*','Data Dictionary.xlsx']
+clean_hdf_store_location: 'data/hdf/clean_datastore.h5'
+
+hdf_store_location: 'data/hdf/datastore.h5'
+path_to_hdf_datastore: 'data/hdf/datastore_current_123.h5'
+path_to_clean_hdf_datastore: '../data/hdf/clean_datastore.h5'
+churn_activities_hdf_file: churn_activities
+churn_risks_hdf_file: churn_risks_V02
+ech_hdf_file: ECH_Customer_Data
+churn_products_hdf_file: churn_products
